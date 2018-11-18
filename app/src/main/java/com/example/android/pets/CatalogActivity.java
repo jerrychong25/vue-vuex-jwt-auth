@@ -4,6 +4,7 @@ import android.content.ContentValues;
 import android.content.Intent;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
+import android.net.Uri;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.v7.app.AppCompatActivity;
@@ -50,9 +51,6 @@ public class CatalogActivity extends AppCompatActivity {
      * the pets database.
      */
     private void displayDatabaseInfo() {
-        // To access our database, we instantiate our subclass of SQLiteOpenHelper
-        // and pass the context, which is the current activity.
-        PetDbHelper mDbHelper = new PetDbHelper(this);
 
         String[] projection = {
                 PetEntry._ID,
@@ -125,10 +123,10 @@ public class CatalogActivity extends AppCompatActivity {
         values.put(PetEntry.COLUMN_PET_GENDER, "Male");
         values.put(PetEntry.COLUMN_PET_WEIGHT, "7kg");
 
-        // Insert the new row, returning the primary key value of the new row
-        long newRowId = db.insert(PetEntry.TABLE_NAME, null, values);
-
-        Log.v("CatalogActivity", "New Row ID: "+ newRowId);
+        Uri mNewUri = getContentResolver().insert(
+                PetEntry.CONTENT_URI,   // the user dictionary content URI
+                values                  // the values to insert
+        );
     }
 
     @Override
