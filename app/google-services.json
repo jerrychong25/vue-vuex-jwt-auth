@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "994005154813",
+    "firebase_url": "https://pets-6f8ad.firebaseio.com",
+    "project_id": "pets-6f8ad",
+    "storage_bucket": "pets-6f8ad.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:994005154813:android:e82eea396e698f6f",
+        "android_client_info": {
+          "package_name": "com.jerrychong.pets"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "994005154813-62bfqcu65kgnn0ce3llt4mdtnin0bmu7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCixofJsUXmoIqUEy9Abej6IoyoacGjyKw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
