@@ -1,10 +1,10 @@
-package com.example.android.pets.data;
+package com.jerrychong.pets.data;
 
 import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 
-import com.example.android.pets.data.PetContract.PetEntry;
+import com.jerrychong.pets.data.PetContract.PetEntry;
 
 public class PetDbHelper extends SQLiteOpenHelper{
 

@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.example.android.pets;
+package com.jerrychong.pets;
 
 import android.app.AlertDialog;
 import android.app.LoaderManager;
@@ -40,8 +40,8 @@ import android.widget.EditText;
 import android.widget.Spinner;
 import android.widget.Toast;
 
-import com.example.android.pets.data.PetContract.PetEntry;
-import com.example.android.pets.data.PetDbHelper;
+import com.jerrychong.pets.data.PetContract.PetEntry;
+import com.jerrychong.pets.data.PetDbHelper;
 
 /**
  * Allows user to create a new pet or edit an existing one.

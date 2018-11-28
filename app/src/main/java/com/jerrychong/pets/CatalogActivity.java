@@ -1,4 +1,4 @@
-package com.example.android.pets;
+package com.jerrychong.pets;
 
 import android.content.ContentUris;
 import android.content.ContentValues;
@@ -21,8 +21,8 @@ import android.widget.CursorAdapter;
 import android.widget.ListView;
 import android.widget.TextView;
 
-import com.example.android.pets.data.PetContract.PetEntry;
-import com.example.android.pets.data.PetDbHelper;
+import com.jerrychong.pets.data.PetContract.PetEntry;
+import com.jerrychong.pets.data.PetDbHelper;
 
 /**
  * Displays list of pets that were entered and stored in the app.
@@ -71,7 +71,7 @@ public class CatalogActivity extends AppCompatActivity implements LoaderManager.
                 // Form the content URI that represents the specific pet that was clicked on,
                 // by appending the "id" (passed as input to this method) onto the
                 // {@link PetEntry#CONTENT_URI}.
-                // For example, the URI would be "content://com.example.android.pets/pets/2"
+                // For example, the URI would be "content://com.jerrychong.pets/pets/2"
                 // if the pet with ID 2 was clicked on.
                 Uri currentPetUri = ContentUris.withAppendedId(PetEntry.CONTENT_URI, id);
 

@@ -1,4 +1,4 @@
-package com.example.android.pets.data;
+package com.jerrychong.pets.data;
 
 import android.content.ContentProvider;
 import android.content.ContentUris;
@@ -9,7 +9,7 @@ import android.database.sqlite.SQLiteDatabase;
 import android.net.Uri;
 import android.util.Log;
 
-import com.example.android.pets.data.PetContract.PetEntry;
+import com.jerrychong.pets.data.PetContract.PetEntry;
 
 /**
  * {@link ContentProvider} for Pets app.
@@ -146,7 +146,7 @@ public class PetProvider extends ContentProvider {
         }
 
         // Notify all listeners that the data has changed for the pet content URI
-        // uri: content://com.example.android.pets/pets
+        // uri: content://com.jerrychong.pets/pets
         getContext().getContentResolver().notifyChange(uri, null);
 
         // Once we know the ID of the new row in the table,

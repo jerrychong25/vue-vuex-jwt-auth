@@ -1,4 +1,4 @@
-package com.example.android.pets;
+package com.jerrychong.pets;
 
 import android.content.Context;
 import android.database.Cursor;
@@ -9,7 +9,7 @@ import android.widget.CursorAdapter;
 import android.view.LayoutInflater;
 import android.widget.TextView;
 
-import com.example.android.pets.data.PetContract;
+import com.jerrychong.pets.data.PetContract;
 
 /**
  * {@link PetCursorAdapter} is an adapter for a list or grid view

@@ -10,7 +10,7 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-<manifest package="com.example.android.pets"
+<manifest package="com.jerrychong.pets"
           xmlns:android="http://schemas.android.com/apk/res/android">
 
     <application
@@ -38,7 +38,7 @@
         </activity>
         <provider
             android:name=".data.PetProvider"
-            android:authorities="com.example.android.pets"
+            android:authorities="com.jerrychong.pets"
             android:exported="false" />
     </application>
 
