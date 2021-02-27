@@ -1,13 +1,11 @@
 # Vue.js JWT Authentication with Vuex and Vue Router
 
+[![GitHub release](https://img.shields.io/github/release/jerrychong25/vue-vuex-jwt-auth.svg)](https://gitHub.com/jerrychong25/vue-vuex-jwt-auth/releases/)
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-no-red.svg)](https://github.com/jerrychong25/vue-vuex-jwt-auth/graphs/commit-activity)
+[![HitCount](http://hits.dwyl.com/jerrychong25/vue-vuex-jwt-auth.svg)](http://hits.dwyl.com/jerrychong25/vue-vuex-jwt-auth)
+
 For more detail, please visit:
 > [Vue.js JWT Authentication with Vuex and Vue Router](https://bezkoder.com/jwt-vue-vuex-authentication/)
-
-Fullstack with Spring Boot Back-end:
-> [Spring Boot + Vue.js: Authentication with JWT & Spring Security Example](https://bezkoder.com/spring-boot-vue-js-authentication-jwt-spring-security/)
-
-Fullstack with Node.js Express Back-end:
-> [Node.js Express + Vue.js: JWT Authentication & Authorization example](https://bezkoder.com/node-express-vue-jwt-auth/)
 
 ## Note:
 Open `src/services/auth-header.js` and modify `return` statement for appropriate back-end.
